@@ -6,6 +6,8 @@ Use some machine learning library (likely scikit) to train a model and predict a
 
 Potentially look into adding some other features for UI (TBD)
 
-## Steps (TBD)
+## Steps 
 
-1. Prepare Data: Will probably get some video footage 
+1. Apply GaussianBlur and HSV to get a circle around the cue ball
+
+    a. https://stackoverflow.com/questions/63730808/golf-ball-tracking-in-python-opencv-with-different-color-balls
