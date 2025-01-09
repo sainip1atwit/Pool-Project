@@ -2,12 +2,18 @@
 
 ## Goals
 
-Use some machine learning library (likely scikit) to train a model and predict a best shot
+Current: 
+    Use OpenCV to keep track of the cue ball
 
-Potentially look into adding some other features for UI (TBD)
+Future:
+    Track other balls on table
+    Get next shot on a 9-ball game
+    Potentially have a best shot to play (Ambitious/Far Future)
 
 ## Steps 
 
 1. Apply GaussianBlur and HSV to get a circle around the cue ball
 
     a. https://stackoverflow.com/questions/63730808/golf-ball-tracking-in-python-opencv-with-different-color-balls
+
+2. Use the above step to get other balls on the table
