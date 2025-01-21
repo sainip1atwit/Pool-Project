@@ -10,8 +10,10 @@ def mask_obj():
     hsv = cv.cvtColor(frame, cv.COLOR_BGR2HSV)
     cv.imshow('hsv', hsv)
 
+    color = np.array([182, 3, 30])
+
     lower = np.array([0,0,168])
-    upper = np.array([172, 111, 255])
+    upper = np.array([172,111,255])
 
     mask = cv.inRange(hsv, lower, upper)
     cv.imshow('Mask', mask)
